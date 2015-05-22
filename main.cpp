@@ -1,4 +1,4 @@
-//GONZ¡LEZ NOLASCO DIEGO DAVID
+//Salazar C√°rdenas Carlos Eduardo
 //#include <gl/gl.h>     // The GL Header File
 //#include <windows.h>	//Solo para Windows
 //#include <GL/glut.h>   // The GL Utility Toolkit (Glut) Header
@@ -2809,7 +2809,7 @@ void Derecho(){
 	glEnable(GL_LIGHTING);
 	glPopMatrix();
 
-	glPushMatrix(); //Techo facultad filosofÌa
+	glPushMatrix(); //Techo facultad filosof√≠a
 	glTranslatef(29.0, -11.0, -105.0);
 	glRotatef(0, 1, 0, 0);
 	glRotatef(180, 0, 1, 0);
@@ -4235,7 +4235,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	Derecho();
 	glPopMatrix();
 
-	//COLOCANDO RECTORÕA
+	//COLOCANDO RECTOR√çA
 	glPushMatrix();
 	glScalef(0.8, 0.8, 0.8);
 	glTranslatef(395, 66, -240);
@@ -4393,7 +4393,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 		glPopMatrix();
 	}
 
-	//escalÛn largo
+	//escal√≥n largo
 	glPushMatrix();
 	glTranslatef(297.3, 0.3, 28.5);
 	glDisable(GL_LIGHTING);
@@ -4405,7 +4405,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	float transx2 = 300.7;
 	float transy2 = -0.5; //-0.7
 
-	for (int i = 1; i <= 4; i++) //con la funciÛn
+	for (int i = 1; i <= 4; i++) //con la funci√≥n
 	{
 		glPushMatrix();
 		glTranslatef(transx2, transy2, 28.5);
@@ -4418,7 +4418,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	}
 
 
-	//Escaleras frente a arqui (Hacerlo con la funciÛn)
+	//Escaleras frente a arqui (Hacerlo con la funci√≥n)
 	float transy3 = 4.3; //x 307.6
 	float transz3 = 32.5; //y 4.3
 
@@ -4479,7 +4479,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	}
 	glPopMatrix();
 
-	//contin˙a ciclopista lado izquierdo
+	//contin√∫a ciclopista lado izquierdo
 	glPushMatrix();
 	glTranslatef(255, 4.51, 6.6);
 	for (int i = 1; i <= 9; i++){
@@ -4490,7 +4490,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	}
 	glPopMatrix();
 
-	//DESVIACI”N CICLOPISTA
+	//DESVIACI√ìN CICLOPISTA
 	glPushMatrix();
 	glTranslatef(253, 4.51, 9.3);
 	glDisable(GL_LIGHTING);
@@ -4498,7 +4498,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glEnable(GL_LIGHTING);
 	glPopMatrix();
 
-	//contin˙a ciclopista lado derecho
+	//contin√∫a ciclopista lado derecho
 	glPushMatrix();
 	glTranslatef(253.5, 4.51, 13.5);
 	for (int i = 1; i <= 9; i++){
@@ -4653,7 +4653,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 
 
 	//ARBOLES ZONA DE ARRIBA
-	//COLOCACI”N DE ¡RBOLES ISLAS
+	//COLOCACI√ìN DE √ÅRBOLES ISLAS
 
 	glPushMatrix();
 	glTranslatef(50, 5, -20);
@@ -4983,7 +4983,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 		glPopMatrix();
 	}
 
-	glTranslatef(298, 0, 0);//MoviÈndome a la esquina donde empiezan escaleras1 
+	glTranslatef(298, 0, 0);//Movi√©ndome a la esquina donde empiezan escaleras1 
 
 
 	//Escalon Grande
@@ -5034,7 +5034,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	}
 
 
-	glTranslatef(11, -7, 0);//MoviÈndome a la esquina donde TERMINAN ESCALERAS 1
+	glTranslatef(11, -7, 0);//Movi√©ndome a la esquina donde TERMINAN ESCALERAS 1
 
 	//PIEDRA FALTANTE PARA LLEGAR A ARQUITECTURA 
 	
@@ -5078,7 +5078,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glPopMatrix();
 
 
-	//CUADRO SE—ORA BASURA A LADO ARQUI
+	//CUADRO SE√ëORA BASURA A LADO ARQUI
 
 	glPushMatrix();
 	glTranslatef(91, -10, 65);
@@ -5163,7 +5163,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 		}
 	}
 
-	glTranslatef(64, 0, 0); //MoviÈndome a la esquina finalizando cuadropastos
+	glTranslatef(64, 0, 0); //Movi√©ndome a la esquina finalizando cuadropastos
 
 	glPushMatrix();
 	glTranslatef(25, -2.5, -15);
@@ -5182,7 +5182,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 
 
 
-	glTranslatef(30, 0, 0); //MoviÈndome a la esquina del primer cuadro de piedra
+	glTranslatef(30, 0, 0); //Movi√©ndome a la esquina del primer cuadro de piedra
 
 	glPushMatrix();
 	glTranslatef(33.5, -7, -15);
@@ -5192,7 +5192,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glEnable(GL_LIGHTING);
 	glPopMatrix();
 
-	glTranslatef(30, 0, 0); //MoviÈndome a la esquina del segundo cuadro de piedra
+	glTranslatef(30, 0, 0); //Movi√©ndome a la esquina del segundo cuadro de piedra
 
 	glPushMatrix();
 	glTranslatef(3, -13, -52);
@@ -5202,7 +5202,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glEnable(GL_LIGHTING);
 	glPopMatrix();
 
-	glTranslatef(0, -8, -77); //MoviÈndome a la esquina del tercer cuadro de piedra
+	glTranslatef(0, -8, -77); //Movi√©ndome a la esquina del tercer cuadro de piedra
 
 	glPushMatrix();
 	glTranslatef(3, -13, -14);
@@ -5212,7 +5212,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glEnable(GL_LIGHTING);
 	glPopMatrix();
 
-	glTranslatef(0, -8, -14); //MoviÈndome a la esquina del cuarto cuadro de piedra
+	glTranslatef(0, -8, -14); //Movi√©ndome a la esquina del cuarto cuadro de piedra
 
 	glPushMatrix();
 	glTranslatef(3, -9, -25);
@@ -5222,7 +5222,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glEnable(GL_LIGHTING);
 	glPopMatrix();
 
-	glTranslatef(0, -8, -33); //MoviÈndome a la esquina del quinto PEQUE—O cuadro de piedra
+	glTranslatef(0, -8, -33); //Movi√©ndome a la esquina del quinto PEQUE√ëO cuadro de piedra
 
 	glPushMatrix();
 	glTranslatef(3, -2, -35);
@@ -5444,7 +5444,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glPopMatrix();
 
 
-	glTranslatef(250, 20, -40);  //MoviÈndome al centro de las islas
+	glTranslatef(250, 20, -40);  //Movi√©ndome al centro de las islas
 	
 	//Suelo Rojo a lado de Posgrado de Arquitectura
 	glPushMatrix();
@@ -5475,7 +5475,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glPopMatrix();
 
 
-	//PASO CON COLUMNAS A LADO DE INGENIERÕA
+	//PASO CON COLUMNAS A LADO DE INGENIER√çA
 	glPushMatrix();
 	glTranslatef(350, -17, 128);
 
@@ -5492,7 +5492,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glPopMatrix();
 
 
-	//SUELO A LADO DE INGENIERÕA
+	//SUELO A LADO DE INGENIER√çA
 
 	glPushMatrix();
 	glTranslatef(-130, -19, 215);
@@ -5720,7 +5720,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 		}
 		glPopMatrix();
 
-	//COLOCACI”N DE ¡RBOLES ISLAS
+	//COLOCACI√ìN DE √ÅRBOLES ISLAS
 
 		glPushMatrix();
 		GrupoDeArboles();
@@ -6078,14 +6078,14 @@ int main(int argc, char** argv)   // Main Function
 {
 	glutInit(&argc, argv); // Inicializamos OpenGL
 	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH); // Display Mode (Clores RGB y alpha | Buffer Doble )
-	glutInitWindowSize(1920, 1080);	// TamaÒo de la Ventana
+	glutInitWindowSize(1920, 1080);	// Tama√±o de la Ventana
 	glutInitWindowPosition(0, 0);	//Posicion de la Ventana
 	glutCreateWindow("Proyecto Valencia"); // Nombre de la Ventana
 	//glutFullScreen     ( );         // Full Screen
 	InitGL();						// Parametros iniciales de la aplicacion
-	glutDisplayFunc(display);  //Indicamos a Glut funciÛn de dibujo
-	glutReshapeFunc(reshape);	//Indicamos a Glut funciÛn en caso de cambio de tamano
-	glutKeyboardFunc(keyboard);	//Indicamos a Glut funciÛn de manejo de teclado
+	glutDisplayFunc(display);  //Indicamos a Glut funci√≥n de dibujo
+	glutReshapeFunc(reshape);	//Indicamos a Glut funci√≥n en caso de cambio de tamano
+	glutKeyboardFunc(keyboard);	//Indicamos a Glut funci√≥n de manejo de teclado
 	glutSpecialFunc(arrow_keys);	//Otras
 	glutIdleFunc		  ( animacion );
 	glutMainLoop();          // 
